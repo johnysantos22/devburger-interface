@@ -1,16 +1,16 @@
-import { Container } from "./styles";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/Logo.svg";
+import { Button } from "../../components/Button";
+
 import {
-    Title,
     Container,
+    Title,
     LeftContainer,
     RightContainer,
     InputContainer,
-    Link,
-    Button,
     Form,
-
 } from "./styles";
+
+
 
 
 export function Login() {
@@ -25,11 +25,15 @@ export function Login() {
             <RightContainer>
                 <Title>
                     Olá, seja bem vindo ao <span>Dev Burguer!</span>
-                    Acesse com seu <apan>Login e senha.</apan>
+                    <br />
+                    Acesse com seu <span> Login e senha. </span>
                 </Title>
+
 
                 <Form>
                     <InputContainer>
+                        <label>Email</label>
+                        <input type="text" placeholder="Email" />
                         <label>Senha</label>
                         <input type="password" placeholder="Insira sua senha" />
                     </InputContainer>
@@ -37,7 +41,9 @@ export function Login() {
                     <Button>Entrar</Button>
 
                 </Form>
-                <Link>Não tem conta? Cadastre-se</Link>
+                <p>
+                    Não tem conta? <a>Cadastre-se</a>
+                </p>
             </RightContainer>
         </Container>
     )
