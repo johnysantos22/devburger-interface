@@ -1,9 +1,15 @@
+import PropTypes from "prop-types";
+
 import { ContainerButton } from "./styles";
 
-export function Button() {
+export function Button( { children } ) {
     return (
         <ContainerButton>
-            Entrar
+            {children}
         </ContainerButton>
     );
 }
+
+Button.propTypes = {
+    children: PropTypes.string,
+};

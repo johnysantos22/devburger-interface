@@ -38,7 +38,7 @@ export function Login() {
                         <input type="password" placeholder="Insira sua senha" />
                     </InputContainer>
 
-                    <Button>Entrar</Button>
+                    <Button>Entrar</Button> 
 
                 </Form>
                 <p>

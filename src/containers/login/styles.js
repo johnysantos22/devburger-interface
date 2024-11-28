@@ -57,6 +57,8 @@ export const Title = styled.div`
 
   span {
     color: #9758a6;
+    font-family: "Road Rage", sans-serif;
+
   }
 
 `;
