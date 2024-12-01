@@ -94,6 +94,14 @@ label {
     color: #ffffff;
 }
 
+p {
+    font-size: 14px;
+    line-height: 80%;
+    color: #cf3057;
+    font-weight: 800;
+    height: 10px;
+}
+
 `;
 
 
